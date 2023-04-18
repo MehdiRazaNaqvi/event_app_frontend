@@ -1,0 +1,97 @@
+.eventMaterialContainerBannerWrapper {
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+    font-family: Rubik;
+    /* background-color: blue; */
+    border: 2px solid rgba(239, 156, 32, 1);
+    padding: 10px;
+}
+
+.eventMaterialContainerBanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    /* border: 1px solid white; */
+    background-color: #090e18;
+    width: 100%;
+    height: 17rem;
+}
+
+
+.eventMaterialBannerImage {
+    width: 40%;
+    height: 100%;
+}
+
+.eventMaterialBannerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(247.77deg, rgba(239, 156, 32, 1) 17.3%, rgba(45, 43, 183, 2) 55.11%);
+}
+
+@media screen and (max-width: 500px) {
+    .eventMaterialBannerContent {
+        flex-direction: column;
+    }
+}
+
+
+
+
+.companyLogo {
+    margin: 5px;
+    width: 130px;
+    height: 120px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+    .companyLogo {
+        margin: 5px;
+        width: 90px;
+        height: 80px;
+    }
+}
+
+.personImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    text-align: center;
+    padding: 0 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .text {
+        font-size: 16px;
+        padding: 0 5px;
+        /* height: 80px; */
+    }
+}
+
+/* 
+.getItNow {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97.87px;
+    height: 20px;
+} */

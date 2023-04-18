@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.footer {
+    padding: 5%;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+    width: 90%;
+    height: 100%;
+    background: #F1F4F5;
+    border-radius: 16px;
+    font-family: 'Andika', sans-serif;
+    overflow: hidden;
+
+}
+
+/* .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+.footerContent h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 151.02%;
+    color: #5040A1;
+
+}
+
+.footerContent p {
+    font-size: 16px;
+}
+
+.commentSection {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1%;
+    margin: 3%;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.comment1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Grayish Blue */
+
+    color: #67727E;
+}
+
+.logoName {
+    color: black;
+    font-weight: 700;
+
+}
+
+.commentStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentTextArea {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 16px;
+    /* gap: 10px; */
+
+    width: 94%;
+    height: 189.4px;
+
+    background: #FAFAFA;
+    border-radius: 10px;
+}
+
+
+.commentTextArea textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 93px;
+
+    background: #FFFFFF;
+    border: 1px solid #E9EBF0;
+    border-radius: 8px;
+
+}
+
+.commentTextArea textarea::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 1%;
+    /* identical to box height */
+    color: #ABBCCE;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent button {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15.1983px 30.3967px;
+    gap: 7.6px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    width: 142.79px;
+    height: 51.4px;
+    color: #FFFFFF;
+    background: #242565;
+    border-radius: 50px;
+}
+
+.footerContent button:hover {
+    cursor: pointer;
+}
+
+.commentFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+@media (max-width:808px) {
+    .comment1 {
+        font-size: 12px;
+    }
+
+    .commentStyle p {
+        font-size: 12px;
+    }
+
+    .footerContent button {
+        margin-top: 2%;
+        padding: 3%;
+        /* width: 18%; */
+        font-weight: 700;
+        font-size: 12px;
+
+    }
+
+}

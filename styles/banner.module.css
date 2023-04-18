@@ -1,0 +1,18 @@
+.footerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.footerImg img{
+    width: 100% !important;
+    height: 100%;
+}
+
+@media (max-width:502px){
+    .footerImg img{
+        width: 100% !important;
+        height: 300% !important;
+    }
+}

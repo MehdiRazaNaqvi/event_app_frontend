@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+
+
+.mui_navbar_opts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+.navbar_logo_name {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+
+.navbar_appbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+.navbar_portion {
+    width: 95%;
+    
+}
+
+
+
+
+
+.navbar_option {
+
+
+    /* width: 10rem; */
+    width: max-content;
+    height: 3rem;
+    border-radius: 3rem;
+    font-weight: 500;
+
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.navbar_search_option {
+    border: 1px solid white;
+}
+
+
+
+.navbar_option_pink {
+    background-color: #F5167E;
+}
+
+.navbar_option_pink:hover {
+    background-color: #F5167E;
+
+}
+
+
+
+.navbar_search_bar {
+    width: 100%;
+    background-color: white;
+    height: 3rem;
+    border-radius: 3rem;
+    color: gray;
+
+    display: flex;
+    align-content: center;
+
+
+
+}
+
+
+
+
+
+
+.navbar_appbar :hover .navbar_search_bar {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .mui_navbar_opts {
+        display: none;
+    }
+
+
+
+
+
+}

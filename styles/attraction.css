@@ -1,0 +1,43 @@
+.main_screen_base {
+    width: 100%;
+    height: min-content;
+
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-bottom: 5rem;
+
+
+}
+
+.attractionAboutComp{
+    width: 90%;
+    
+
+}
+
+
+
+
+.page_bottom_cover {
+
+    width: 90% !important;
+    height: 15rem !important;
+
+
+}
+
+
+
+.attractionAboutComp {
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1000px) {
+
+
+    .reviews_comp_base {
+
+        width: 90%;
+        /* background-color: red; */
+    }
+
+
+    .reviews_tab_base {
+        width: 100%;
+    }
+
+    .main_screen_heading {
+        width: 100%;
+
+    }
+
+
+
+    .comment_section_base {
+        /* background-color: pink; */
+        width: 90%;
+        padding: 0;
+
+
+    }
+
+    .comments_scrollbar {
+        /* background-color: green; */
+        padding: 0.5rem;
+
+    }
+
+
+    .comment_box {
+        background-color: red;
+        width: 100%;
+        margin: 0;
+        min-height: 12rem;
+
+    }
+
+
+    .comment_section_base {
+        padding-top: 2rem;
+        height: 60rem;
+        /* background-color: red; */
+    }
+
+
+    .page_bottom_cover {
+        width: 90% !important;
+    }
+
+    .main_screen_heading {
+
+        font-size: 1.2rem !important;
+    }
+
+
+
+}

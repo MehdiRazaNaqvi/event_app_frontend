@@ -1,0 +1,142 @@
+.frameContainerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 50px;
+    font-family: "Inter", sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .frameContainerWrapper {
+        padding: 20px;
+        /* flex-wrap: wrap; */
+    }
+}
+
+.categoriesParent {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.categoriesGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.heading {
+    /* font-family: ; */
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 151.02%;
+    /* or 36px */
+    color: #5040A1;
+}
+
+.iconParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.iconImg {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+
+
+
+
+
+.allCityAttractionsParent {
+    /* max-width: 100%; */
+
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 16px;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.eventParent {
+    overflow-x: scroll;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: stretch;
+    /* height: 350px; */
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+.event {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    flex: 1;
+    min-width: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(36, 37, 101, 0.3);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.eventChild {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 200px;
+    object-fit: cover;
+}
+
+.detail {
+    display: flex;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.eventDetailRight {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.directlySeatedAnd {
+    font-size: 14px;
+    color: #6a6a6a;
+}

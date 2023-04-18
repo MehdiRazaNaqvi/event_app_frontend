@@ -1,0 +1,34 @@
+.footerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+.footerImg:hover{
+    cursor: pointer;
+}
+.footerImg img {
+    width: 100% !important;
+    height: 100%;
+}
+
+.footerMob {
+    display: none;
+}
+
+@media (max-width:502px) {
+    .footerImg img {
+        width: 100% !important;
+        height: 200% !important;
+    }
+
+    .footerDesktop {
+        display: none;
+
+    }
+
+    .footerMob {
+        display: block;
+        margin-bottom: 3rem;
+    }
+}

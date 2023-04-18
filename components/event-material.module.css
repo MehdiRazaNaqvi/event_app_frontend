@@ -1,0 +1,154 @@
+.body {
+    font-family: 'Inter',sans-serif;
+}
+
+
+.eventMaterialContainerWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    /* padding: 2rem; */
+    /* background-color: aqua; */
+}
+
+@media only screen and (max-width: 900px) {
+    .eventMaterialContainerWrapper {
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+
+ .eventIncludes.eventsContents {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3%;
+    /* margin: 1rem 0 0 4rem; */
+
+}
+
+
+.eventIncludes .event span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 1rem;
+}
+
+.eventMaterialContainerBox1 {
+    /* background-color: rgb(133, 133, 201); */
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .eventMaterialContainerBox1 {
+        padding-right: 0;
+    }
+}
+
+.eventMaterialContainerBox1 h1 {
+    color: blue;
+}
+
+.eventMaterialContainerBox1 h3 {
+    color: rgb(255, 102, 0);
+}
+
+.eventMaterialContainerBox1 h1,
+.eventMaterialContainerBox1 p,
+.eventMaterialContainerBox1 li{
+    margin: 20px 0px;
+}
+
+.eventMaterialContainerBannerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Rubik;
+
+    /* background-color: blue; */
+}
+
+@media only screen and (max-width: 900px) {
+    .eventMaterialContainerBannerWrapper {
+        display: none;
+    }
+}
+
+
+.eventMaterialContainerBanner {
+    position: relative;
+    border: 5px solid rgba(239, 156, 32, 1);
+    padding: 10px;
+    /* background-color: #090e18; */
+    width: 300px;
+    height: 600px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.eventMaterialBannerImage {
+    height: 50%;
+    width: 93%;
+    position: absolute;
+
+}
+
+.eventMaterialBannerContent {
+    height: 80%;
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(247.77deg, rgba(239, 156, 32, 1) 17.3%, rgba(45, 43, 183, 2) 55.11%);
+    mix-blend-mode: normal;
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+}
+
+
+.companyLogo {
+    margin: 20px;
+    width: 103px;
+    height: 91px;
+    object-fit: cover;
+}
+
+.personImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.text {
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.getItNow {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97.87px;
+    height: 20px;
+}

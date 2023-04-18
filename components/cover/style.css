@@ -1,0 +1,19 @@
+.cover_photo_base {
+    height: 30rem;
+    width: 100%;
+    background-color: red;
+
+
+
+
+
+
+
+}
+
+
+
+.cover_photo {
+    width: 100% !important;
+    height: 100% !important;
+}

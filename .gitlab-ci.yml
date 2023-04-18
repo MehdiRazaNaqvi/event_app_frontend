@@ -1,0 +1,36 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  IMAGE_NAME: sohaibabbasi26/eventsapp
+  IMAGE_TAG: V9
+  OLD_IMAGE_TAG: V8
+  DOCKER_TLS_CERTDIR: ""
+
+build:  
+  stage: build
+  tags:
+    - eventsapp
+  before_script:
+    - docker login -u $REGISTRY_USER -p $REGISTRY_PASS
+  script: 
+    - docker build -t $IMAGE_NAME:$IMAGE_TAG .
+    - docker push $IMAGE_NAME:$IMAGE_TAG
+    - docker rmi $IMAGE_NAME:$IMAGE_TAG
+  only:
+    - develop
+
+deploy:
+  stage: deploy
+  tags:
+    - eventsapp
+  script: 
+    - ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ubuntu@204.236.180.251 "
+        docker login -u $REGISTRY_USER -p $REGISTRY_PASS &&
+        docker ps -aq | xargs docker stop | xargs docker rm &&
+        docker rmi $IMAGE_NAME:$OLD_IMAGE_TAG &&
+        docker run -p 3000:3000 -d $IMAGE_NAME:$IMAGE_TAG"
+
+  only:
+    - develop

@@ -1,0 +1,50 @@
+.about_base {
+    width: 90%;
+    height: 50rem;
+    background-color: brown;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.about_left {
+    width: 70%;
+    height: 100%;
+    background-color: orange;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.about_right {
+    width: 30%;
+    height: 100%;
+
+    background-color: rgb(255, 226, 173);
+}
+
+.about_corner{
+    width: 100% ;
+    height: 25rem ;
+    background-color: green;
+    
+
+
+}
+
+
+.about_row {
+    width: 100%;
+    height: 4rem;
+    background-color: yellow;
+}
+
+
+
